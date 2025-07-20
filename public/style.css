@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+    background: white;
+}
+header div {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+header div strong {
+    display: block;
+    font-size: 1.1em;
+    color: #222;
+    letter-spacing: 0.03em;
+}
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin: 0;
+    padding: 0;
+}
+.nav-bar li {
+    border: 1px dashed #aaa;
+    padding: 10px 15px;
+}
+.nav-bar a {
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+}
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #c3d300;
+    padding: 10px;
+    cursor: pointer;
+}
+.hamburger span {
+    height: 3px;
+    width: 20px;
+    background: white;
+    margin: 3px 0;
+    border-radius: 2px;
+}
+.hero {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+}
+.hero img {
+    max-height: 100%;
+    max-width: 90%;
+    height: auto;
+    object-fit: contain;
+}
+.banner {
+    background-color: #c3d300;
+    text-align: center;
+    padding: 1em;
+    font-size: 3.5em;
+    color: white;
+}
+.video-section {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 2em 0;
+}
+.video-section video {
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px;
+}
+.gofund {
+    background-color: #f9f9f9;
+    padding: 2em;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    border-top: 2px solid #c3d300;
+    border-bottom: 2px solid #c3d300;
+}
+.gofund h2 {
+    margin-bottom: 0.5em;
+    color: #3a6e70;
+    font-size: 2em;
+}
+.gofund p {
+    margin: 0.5em 0;
+    font-size: 1.2em;
+    color: #444;
+}
+.stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+    background: #f8f8f8;
+}
+.stat {
+    text-align: center;
+    font-size: 1.2em;
+}
+.stat strong {
+    display: block;
+    font-size: 2em;
+    color: #3a6e70;
+}
